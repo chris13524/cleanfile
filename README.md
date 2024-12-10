@@ -23,6 +23,8 @@ frameworks:
 cleanfile --file ./cleanfile
 ```
 
+Add the `--dry-run` flag if you would like to disable the actual cleaning.
+
 ## Full system cleaning
 
 Developers can place a cleanfile at the root of their projects directory and by specifying `recurse_depth` > 0 cleanfile will recurse into subfolders and find `cleanfile`s
